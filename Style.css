@@ -1,0 +1,20 @@
+*{
+    margin:0; padding:0;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: inherit; text-decoration: none;
+}
+h1{
+    text-align:center;
+}
+.first-box{width:100vw; height: 100vh; flex-grow: 0; flex-shrink: 0; display: flex;z-index:2; }
+.first-box .left{flex-basis: 20vw; background : #ebece6; position:relative;}
+.first-box .left ul{position:absolute; top:20%; width:100%; transform: translateY(-50%);}
+.first-box .left li{line-height:50px; font-size:20px; font-weight:bold;}
+.first-box .right{flex-basis: 10vw; background : #444; display:flex; flex-direction:column;  justify-content:center; align-items : center;}
+.first-box .right p{color:#fff;text-align:center;}
+.first-box .right p.p1{font-size:40px;}
+.first-box .right p.p2{font-size:45px;}
